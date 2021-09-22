@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
+        <copied_from>f2dbe8282f76b01016f82d6df699b68e</copied_from>
+        <copied_from_name>NeedIt Fulfillment</copied_from_name>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>needit_fulfillment1</internal_name>
+        <label_cache>[{"name":"885d1385-f94b-48ca-ac48-f2357c9c95de.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"885d1385-f94b-48ca-ac48-f2357c9c95de.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"f016b2d0-99dd-4af4-8909-13c3afd74849.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>NeedIt Fulfillment1</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2021-09-21 12:01:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>340755682ff6b01016f82d6df699b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Fulfillment1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_340755682ff6b01016f82d6df699b6de</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2021-09-21 12:01:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=340755682ff6b01016f82d6df699b6de"/>
+    <sys_variable_value action="DELETE" query="document_key=340755682ff6b01016f82d6df699b6de"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=340755682ff6b01016f82d6df699b6de^sys_idNOT IN740755682ff6b01016f82d6df699b6df"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>340755682ff6b01016f82d6df699b6de</id>
+        <name>NeedIt Fulfillment1</name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2021-09-21 12:01:42</sys_created_on>
+        <sys_id>740755682ff6b01016f82d6df699b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2021-09-21 12:01:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9288ff4cdb09fb80f492c5970596194f</instance_id>
+        <instance_name>dev82653</instance_name>
+        <name>sys_hub_flow_340755682ff6b01016f82d6df699b6de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build><copied_from>f2dbe8282f76b01016f82d6df699b68e</copied_from><copied_from_name>NeedIt Fulfillment</copied_from_name><description>Steps to approve and fulfill NeedIt requests.</description><internal_name>needit_fulfillment1</internal_name><label_cache>[{"name":"885d1385-f94b-48ca-ac48-f2357c9c95de.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"885d1385-f94b-48ca-ac48-f2357c9c95de.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"f016b2d0-99dd-4af4-8909-13c3afd74849.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache><latest_snapshot/><master_snapshot/><name>NeedIt Fulfillment1</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2021-09-21 12:01:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>340755682ff6b01016f82d6df699b6de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Fulfillment1</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_flow_340755682ff6b01016f82d6df699b6de</sys_update_name><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2021-09-21 12:01:42</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=340755682ff6b01016f82d6df699b6de"/><sys_variable_value action="delete_multiple" query="document_key=340755682ff6b01016f82d6df699b6de"/><sys_flow_cat_variable_model action="delete_multiple" query="id=340755682ff6b01016f82d6df699b6de^sys_idNOT IN740755682ff6b01016f82d6df699b6df"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>340755682ff6b01016f82d6df699b6de</id><name>NeedIt Fulfillment1</name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2021-09-21 12:01:42</sys_created_on><sys_id>740755682ff6b01016f82d6df699b6df</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>fred.luddy</sys_updated_by><sys_updated_on>2021-09-21 12:01:42</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-379710353</payload_hash>
+        <record_name>NeedIt Fulfillment1</record_name>
+        <reverted_from/>
+        <source>f7a1b6be2f2e301016f82d6df699b620</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2021-09-21 12:01:42</sys_created_on>
+        <sys_id>780755682ff6b01016f82d6df699b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c083bb3a60000001</sys_recorded_at>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2021-09-21 12:01:42</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>b00755685af6b01090d7e33811ecf6e3</update_guid>
+        <update_guid_history>b00755685af6b01090d7e33811ecf6e3:-379710353</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-21 12:36:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>6db432b90bcf46d4b87b557a13fcdc90</sys_id>
+        <sys_metadata>340755682ff6b01016f82d6df699b6de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Fulfillment1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_340755682ff6b01016f82d6df699b6de</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_340755682ff6b01016f82d6df699b6de">780755682ff6b01016f82d6df699b6e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-21 12:36:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
